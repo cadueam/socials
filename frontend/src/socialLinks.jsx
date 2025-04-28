@@ -1,4 +1,5 @@
 import MySocials from "./mysocials.jsx";
+import Quotes from "./quotes.jsx";
 
 const SocialLinks = () => {
   return (
@@ -6,7 +7,7 @@ const SocialLinks = () => {
       <p className="font-bold text-xl bg-[#D0ED57] text-[#383838]">
         Cadu Andrade\<span className="text-base">Designer - FrontEnd Dev</span>
       </p>
-      <div className="flex justify-center m-4 ">
+      <div className="flex justify-center m-2 ">
         <img
           src="../public/MeGood.png"
           alt="Cadu"
@@ -14,6 +15,7 @@ const SocialLinks = () => {
         ></img>
       </div>
       <MySocials />
+      <Quotes />
     </div>
   );
 };

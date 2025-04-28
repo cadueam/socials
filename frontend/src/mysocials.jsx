@@ -94,7 +94,7 @@ const MySocials = () => {
     },
 
     {
-      link: "google.com.br",
+      link: "https://www.google.com.br",
       id: "Contact",
       img: "../public/whatsapp-svgrepo-com.svg",
       description: "Contact",
